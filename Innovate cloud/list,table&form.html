@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List/Table/Form</title>
+    <style>
+        *{
+            background-color:lightcyan;
+            margin: 4px;
+            padding: 3px;
+        }
+        form{
+            background-color: rgb(57, 145, 145);
+            padding: 2rem;
+            border-radius: 50px;
+            box-shadow: 0 8px 16px ;
+            width: 100%;
+            max-width: 400px;
+        }
+        h2{
+            text-align: center;
+        }
+        .form-box {
+      border: 22px solid #333;      
+      padding: 20px;               
+      width: 20px;                
+      margin: 0 auto;              
+      border-radius: 8px;          
+      background-color: rgb(57, 145, 145);   
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+
+    input, button {
+      display: inline-block;
+      width: 20%;
+      margin: 1px 0;
+      padding: 10px;
+      font-size: 1em;
+    }
+    .submit-button{
+         width: 100%;
+            padding: 0.75;
+            background-color:rgb(57, 145, 145);
+            border: none;
+            color: white;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition:  0.5s ease;
+    }
+    .submit-button:hover{
+        background-color:grey;
+    }
+    .p-button{
+        width: 100%;
+            padding: 0.75;
+            background-color:rgb(57, 145, 145);
+            border: none;
+            color: white;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition:  0.5s ease;
+            text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <main>
+    <h2><u>Hobbies</u></h2>
+    <ul>
+        <li>Playing a guitar</li>
+        <li>Drawing</li>
+        <li>Singing</li>
+        <li>Coding and programming</li>
+        <li>Playing sports (volleyball,cricket)</li>
+    </ul>
+    <h2><u>Goals</u></h2>
+    <ol>
+        <li>Secure a stable job or income</li>
+        <li>Saving and investing</li>
+        <li>Develop valuable skill or get certified</li>
+        <li>Eat healthier</li>
+        <li>Travel</li>
+    </ol>
+    </main>
+    <h2><u>Table about my weekly schedule</u></h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <td>6:00am-7:00am</td>
+            <td>Wake up & Breakfast</td>
+            <td>Wake up & Breakfast</td>
+            <td>Wake up & Breakfast</td>
+            <td>Wake up & Breakfast</td>
+            <td>Wake up & Breakfast</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+        </tr>
+        <tr>
+            <td>7:00am-9:15am</td>
+            <td>Travelling in bus for college</td>
+            <td>Travelling in bus for college</td>
+            <td>Travelling in bus for college</td>
+            <td>Travelling in bus for college</td>
+            <td>Travelling in bus for college</td>
+            <td>Wake up</td>
+            <td>Wake up</td>
+        </tr>
+        <tr>
+            <td>9:15am-12:40pm</td>
+            <td>Classes</td>
+            <td>Classes</td>
+            <td>Classes</td>
+            <td>Classes</td>
+            <td>Classes</td>
+            <td>College and social work</td>
+            <td>Work</td>
+        </tr>
+        <tr>
+            <td>12:40pm-1:40pm</td>
+            <td>Break for lunch</td>
+            <td>Break for lunch</td>
+            <td>Break for lunch</td>
+            <td>Break for lunch</td>
+            <td>Break for lunch</td>
+            <td>Lunch & study and work</td>
+            <td>Lunch & just relax</td>
+        </tr>
+        <tr>
+            <td>1:40pm-3:20pm</td>
+            <td>Again classes</td>
+            <td>Again classes</td>
+            <td>Again classes</td>
+            <td>Again classes</td>
+            <td>Again classes</td>
+            <td>Work & learn coding</td>
+            <td>Sleep</td>
+        </tr>
+        <tr>
+            <td>3:30pm-5:30pm</td>
+            <td>Back to home</td>
+            <td>Back to home</td>
+            <td>Back to home</td>
+            <td>Back to home</td>
+            <td>Back to home</td>
+            <td>Time spend with friends</td>
+            <td>Time spend with friends</td>
+        </tr>
+        <tr>
+            <td>5:30pm-8:00pm</td>
+            <td>Relax & Socialize</td>
+            <td>Relax & Socialize</td>
+            <td>Relax & Socialize</td>
+            <td>Relax & Socialize</td>
+            <td>Relax & Socialize</td>
+            <td>Relax & Socialize</td>
+            <td>Relax & Socialize</td>
+        </tr>
+        <tr>
+            <td>8:00pm-10:00pm</td>
+            <td>Dinner & sleep</td>
+            <td>Dinner & sleep</td>
+            <td>Dinner & sleep</td>
+            <td>Dinner & sleep</td>
+            <td>Dinner & sleep</td>
+            <td>Dinner & sleep</td>
+            <td>Dinner & sleep</td>
+        </tr>
+    </table><br><br>
+    <main>
+    <h2><U>Contact me</U></h2>
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="mail">
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female:</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other:</label><br>
+        <label for="message">Message</label>
+        <input type="text" name="message" id="message"><br>
+        <button type="submit" value="submit" class="submit-button">submit</button>
+        <p role="button" tabindex="0" onclick="dosomething" onkeypress="if(event.key === 'enter'){dosomething;}" class="p-button">click me</p>
+    </form>
+    </main>
+</body>
+</html>
